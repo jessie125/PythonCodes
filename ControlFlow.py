@@ -49,5 +49,22 @@ def grade2(num):
 
 print grade2(0)
 
+print "-------------------------------"
+
+
+def max2(a, b, c):
+    if a > b:
+        if a > c:
+            return a
+        else:
+            return c
+    else:
+        if b > c:
+            return b
+        else:
+            return c
+        
+
+print max2(5, 6, 7)
 
     
